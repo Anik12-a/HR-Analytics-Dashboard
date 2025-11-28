@@ -18,6 +18,8 @@ Overall Workforce Metrics
 • 	Average tenure: 7.23 years
 
 • 	Average salary: 6.67K
+![dashboard](https://github.com/user-attachments/assets/4e1b956e-aef6-4480-8a9c-d7593feefd9b)
+
 
 **Attrition by Demographics**
 
@@ -55,7 +57,7 @@ Other roles include Sales Representatives, HR, Healthcare Representatives, and M
 
 • Very low attrition among long-tenured employees.
 
-The HR Analytics Dashboard highlights key workforce trends with a focus on employee attrition. Out of **1,423** employees, **211 **have left, resulting in a **14.8%** attrition rate. Attrition is highest among younger employees **(18–35 years)**, lower salary bands **(≤5K)**, and specific roles such as **Sales Executives**, **Laboratory Technicians**, and **Research Scientists**. Education background also plays a role, with Life Sciences and Medical graduates showing the largest share of attrition. These insights help HR teams identify high‑risk groups and design targeted retention strategies.
+The HR Analytics Dashboard highlights key workforce trends with a focus on employee attrition. Out of **1,423** employees, **211**have left, resulting in a **14.8%** attrition rate. Attrition is highest among younger employees **(18–35 years)**, lower salary bands **(≤5K)**, and specific roles such as **Sales Executives**, **Laboratory Technicians**, and **Research Scientists**. Education background also plays a role, with Life Sciences and Medical graduates showing the largest share of attrition. These insights help HR teams identify high‑risk groups and design targeted retention strategies.
 
 This dashboard enables HR teams to:
 
