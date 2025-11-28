@@ -20,18 +20,41 @@ Overall Workforce Metrics
 • 	Average salary: 6.67K
 ![dashboard](https://github.com/user-attachments/assets/4e1b956e-aef6-4480-8a9c-d7593feefd9b)
 
+**Data Cleaning Process 🧹**
+
+Before analysis, the dataset was cleaned to ensure accuracy and consistency:
+
+- **Duplicates Removed:** Employee records with repeated IDs were eliminated.
+    
+- **Missing Values:** Nulls in salary and age were handled (either imputed or excluded).
+
+- **Date Formatting:** Standardized tenure values to ensure correct calculations.  
+
+![Screenshot 2025-11-28 235017](https://github.com/user-attachments/assets/d1f202e2-52b9-4d09-bbf3-04079049403c)
+
 
 **Attrition by Demographics**
 
 • 	Gender: 138 males vs 73 females
 
+**Insight →** Attrition is higher among men, possibly due to role distribution in sales and technical jobs.
+
 • 	Age groups: Highest attrition in 26–35 years (43) and 18–25 years (116)
+
+**Insight →** Early-career employees (18–25) are most vulnerable, showing retention challenges in onboarding and career growth.
 
 **Attrition by Job Role**
 
 Top roles affected: Sales Executive (58), Laboratory Technician (53), Research Scientist (41)
 
 Other roles include Sales Representatives, HR, Healthcare Representatives, and Managers.
+
+**Insight →** Sales and lab roles show the highest attrition, suggesting stress, workload, or limited career progression.
+
+![Screenshot 2025-11-28 231717](https://github.com/user-attachments/assets/da918a74-9f20-4e20-a3c9-067addfbe690)
+![Screenshot 2025-11-28 232013](https://github.com/user-attachments/assets/4c379ab5-9158-4175-9073-73216ce79ddb)
+
+
 
 **Attrition by Education**
 
@@ -45,6 +68,11 @@ Other roles include Sales Representatives, HR, Healthcare Representatives, and M
 
 • 	Other: 4
 
+![Screenshot 2025-11-28 235243](https://github.com/user-attachments/assets/4a7e61d4-f0e3-4161-be86-4129ad88705b)
+
+
+**Insight →** Attrition is concentrated among Life Sciences and Medical graduates, possibly reflecting industry-specific challenges.
+
 **Attrition by Salary Slab**
 
 • Majority from lower salary bands: 136 employees earning up to 5K
@@ -57,13 +85,62 @@ Other roles include Sales Representatives, HR, Healthcare Representatives, and M
 
 • Very low attrition among long-tenured employees.
 
-The HR Analytics Dashboard highlights key workforce trends with a focus on employee attrition. Out of **1,423** employees, **211**have left, resulting in a **14.8%** attrition rate. Attrition is highest among younger employees **(18–35 years)**, lower salary bands **(≤5K)**, and specific roles such as **Sales Executives**, **Laboratory Technicians**, and **Research Scientists**. Education background also plays a role, with Life Sciences and Medical graduates showing the largest share of attrition. These insights help HR teams identify high‑risk groups and design targeted retention strategies.
+![Screenshot 2025-11-28 235343](https://github.com/user-attachments/assets/1185e95f-10d4-481d-93b9-afdd4607ba01)
 
-This dashboard enables HR teams to:
 
-• Pinpoint high-risk groups (e.g., young employees, lower salary bands, specific job roles).
+**Insight →**Majority of attrition occurs in the lowest salary slab, showing compensation as a key retention lever.
 
-• Compare attrition across departments (Sales, R&D, HR).
+**Key Insights 🔑**
 
-• Support strategic workforce planning and retention initiatives.
+• 	Younger, lower-paid employees in sales and lab roles are most at risk.
+
+• 	Salary and career development opportunities appear central to retention.
+
+• 	Compensation and career growth initiatives could reduce attrition.
+
+• 	Mid-career employees show stability, suggesting that retention improves once employees are established.
+
+**Conclusion 🏁**
+
+This analysis highlights the importance of targeted retention strategies for early-career employees, especially in sales and technical roles.
+Improving compensation, career growth, and engagement could significantly reduce attrition and strengthen workforce stability.
+
+**How to Use 🚀**
+
+1. 	Clone this repository.
+   
+2. 	Open the Power BI file ().
+   
+3. 	Explore the interactive dashboard with filters for gender, department, and education.
+
+Project Structure 📂
+
+HR-Analytics/
+
+│
+
+├── data/  							# Raw and cleaned datasets
+
+├── dashboard/ 		          		# Power BI .pbix file
+
+├── images/	              			# Screenshots of dashboard visuals
+
+├── scripts/             			# DAX formulas or Power Query steps
+
+└── README.md           			# Project documentation
+
+
+
+13. Screenshots 📸
+- Dashboard Overview
+- Attrition by Age
+- Attrition by Job Role
+- Attrition by Salary
+- Power Query (Data Cleaning)
+  
+
+14. License 📜
+This project is open-source. Feel free to use and adapt it for learning or organizational insights.
+
+
 
